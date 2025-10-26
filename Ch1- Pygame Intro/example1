@@ -1,0 +1,9 @@
+coordinates = [(22, 10), (38, 7), (18, 5), (96, 73)]
+
+smallest_x = coordinates[0][0]
+
+for coord in coordinates:
+    if coord[0] < smallest_x:
+        smallest_x = coord[0]
+
+print("Smallest x-coordinate:", smallest_x)
